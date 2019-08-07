@@ -1,0 +1,2 @@
+# wordcount
+ecsub example module
