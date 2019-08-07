@@ -1,0 +1,3 @@
+--env RANK	--input-recursive INPUT_DIR	--output OUTPUT_FILE
+100	s3://{bucket-name}/path/to/txt	s3://{bucket-name}/path/to/count.txt
+
