@@ -1,3 +1,2 @@
---env RANK	--input-recursive INPUT_DIR	--output OUTPUT_FILE
-100	s3://{bucket-name}/path/to/txt	s3://{bucket-name}/path/to/count.txt
-
+--input-recursive INPUT_DIR	--output OUTPUT_FILE	--env RANK
+s3://{bucket-name}/data/hamlet	s3://{bucket-name}/output/all-count.txt	100

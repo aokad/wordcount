@@ -1,4 +1,4 @@
---env RANK	--input INPUT_FILE	--output OUTPUT_FILE
-100	s3://{bucket-name}/path/to/hamlet.txt	s3://{bucket-name}/path/to/hamlet-count.txt
-100	s3://{bucket-name}/path/to/kinglear.txt	s3://{bucket-name}/path/to/kinglear-count.txt
-100	s3://{bucket-name}/path/to/othello.txt	s3://{bucket-name}/path/to/othello-count.txt
+--input INPUT_FILE	--output OUTPUT_FILE	--env RANK
+s3://{bucket-name}/data/titles/hamlet.txt	s3://{bucket-name}/output/hamlet-count.txt	100
+s3://{bucket-name}/data/titles/kinglear.txt	s3://{bucket-name}/output/kinglear-count.txt	100
+s3://{bucket-name}/data/titles/othello.txt	s3://{bucket-name}/output/othello-count.txt	100

@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y wget
 
 WORKDIR /usr/local/bin
 
-RUN wget https://raw.githubusercontent.com/aokad/wordcount/master/python/wordcount
+RUN wget https://raw.githubusercontent.com/aokad/wordcount/master/python/wordcount && \
+    chmod 755 /usr/local/bin/wordcount
 
 ENV PATH /usr/local/bin:$PATH
