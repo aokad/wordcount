@@ -1,4 +1,4 @@
-FROM python:2.7.14
+FROM python:3.9.0-alpine3.12
 
 MAINTAINER Ai Okada <aokada@ncc.go.jp>
 
